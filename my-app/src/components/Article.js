@@ -27,7 +27,7 @@ function Article (){
                <Col span={8} ><Card hoverable
                cover={<img alt="example" src="https://resa.tunisiepromo.com/application/assets/image/hotel_photo/123191964.jpg" />}
                >
-                <Meta title="Dar Tozeur" description="" />
+                <Meta title="Dar Tozeur" description=" " />
                 <Rate/>
                 </Card></Col>
             </Row>

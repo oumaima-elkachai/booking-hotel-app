@@ -1,45 +1,55 @@
 import React from 'react';
-import { Button } from 'antd';
-
 import { Carousel } from 'antd';
+import './carou.css'
 
 const items = [
   {
     key: '1',
-    title: 'find the best location to relax',
-    content: '',
+    title: 'Find The Best Location To Relax',
+    
   },
   {
+  
     key: '2',
-    title: 'Work better together. Schedule meetings',
-    content: 'An vim odio ocurreret consetetur, justo constituto ex mea. Quidam facilisis vituperata pri ne. Id nostrud gubergren urbanitas sed, quo summo animal qualisque ut, cu nostro dissentias consectetuer mel. Ut admodum conceptam mei, cu eam tation fabulas abhorreant. His ex mandamus.',
+    title: ' Enjoy Your Holiday',
+    
   },
   {
     key: '3',
-    title: 'The best app to increase your productivity',
-    content: 'An vim odio ocurreret consetetur, justo constituto ex mea. Quidam facilisis vituperata pri ne. Id nostrud gubergren urbanitas sed, quo summo animal qualisque ut, cu nostro dissentias consectetuer mel. Ut admodum conceptam mei, cu eam tation fabulas abhorreant. His ex mandamus.',
+    title: 'Search and Book Hotel',
+
+    
   },
 ]
 
 function Carou() {
   return (
     <div id="hero" className="heroBlock">
-      <Carousel>
-        {items.map(item => {
-          return (
-            <div key={item.key} className="container-fluid">
-              <div className="content">
-                <h3>{item.title}</h3>
-                <p>{item.content}</p>
-                
-                <div className="btnHolder">
-                  <Button type="primary" size="large">Reserver </Button>
-                  <Button size="large"><i className="fas fa-desktop"></i> Publiez votre annonce</Button>
+      <Carousel >
+        
+            <section className="slide-form">
+              <div className="container">
+                <h2>Enjoy Your Holiday</h2>
+                <span>Search and Book Hotel</span>
+
+                <form action=''>
+                  <input type={'text'} placeholder='Search City' ></input>
+                  <div className='flex_space'>
+                  <input type={'date'} placeholder='Check In '></input>
+                  <input type={'date'} placeholder='Check Out'></input>
+                <div className='flex_space'>
+                  <input type={'number'} placeholder='Adult(s)'></input>
+                  <input type={'number'} placeholder='Childreen(-12 years old)'></input>
+                  <div className='flex_space'>
+                  <input type={'number'} placeholder='Rooms'></input>
+                  <button type="submit"  className='submit'> Submit </button>
+                   </div>
+                   </div>
                 </div>
+                </form>
               </div>
-            </div>  
-          );
-        })}
+            </section>  
+          
       </Carousel>
     </div>
   );

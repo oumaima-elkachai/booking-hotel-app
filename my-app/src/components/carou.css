@@ -1,0 +1,41 @@
+.heroBlock .slide-form h2{
+    margin-top: 30px;
+    margin-left: 50px;
+
+}
+.heroBlock .slide-form span{
+    margin-top: 30px;
+    margin-left: 50px;
+
+}
+.heroBlock .slide-form{
+    position: absolute;
+    left: 55%;
+    top:17%;
+    width: 15%;
+    height:70vh;
+    background-color: hsla(245, 100%, 93%, 0.315);
+    color: #fff;
+    border-radius: 50px;
+}
+.heroBlock .slide-form input{
+    margin-top: 20px;
+    margin-left: 50px;
+    color: grey;
+}
+.heroBlock .slide-form .flex-space input:nth-child(odd){
+    margin-right: 20px;
+    border: 5px;
+
+}
+.heroBlock .slide-form .submit{
+    background-color: #9994e2;
+    border: 5px;
+    margin: 35px;
+    margin-left: 60px;
+    display: block;
+    padding: 1px 7px 2px;
+    border-width: 1px;
+
+    
+}

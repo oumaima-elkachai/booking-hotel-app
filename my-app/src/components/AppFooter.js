@@ -7,7 +7,7 @@ const AppFooter = () => {
             <div className='footer'>
                 <div className='logo'>
                     <i className='fas fa-bolt'></i>
-                    <a href='http://www.google.com'> logo</a>
+                    <a href='http://www.google.com'> TuniBooking</a>
                 </div>
             <ul className='socials'>
                 <li><a href='https://www.facebook.com'><i className='fab fa-facebook-f'><FacebookOutlined /></i></a></li>

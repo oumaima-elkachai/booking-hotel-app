@@ -6,6 +6,7 @@ import Article from './components/Article';
 import AppFooter from './components/AppFooter';
 import Naavbar from './components/Naavbar';
 import Rech from './components/Rech';
+import Activities from './components/Activities';
 
 const {Footer , Content } = Layout;
 
@@ -20,15 +21,15 @@ function App() {
         <Home/>
         
         <Article/>
+        <Activities/>
         <div className='block featureBlock bgGray'>
         <div className='container-fluid'>
         <div className='titleHolder'>
-          <h2>Découvrez les activités </h2>
-          <p> Retrouvez vous en famille ou entre amis pour passer un bon moment ensemble, amusez-vous avec des activités fun </p>
+          <p></p>
         </div>
         </div>
         </div>
-        <Rech/>
+        
       </Content>
       <Footer>
         <AppFooter/>

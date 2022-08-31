@@ -1,9 +1,18 @@
+textarea , input{
+  width: 40%;
+  padding: 10px;
+  outline: none;
+  border: none;
+  display: block;
+}
+
 body {
   font-size: 16px;
   line-height: 1.6;
   color: #333;
   overflow-x: hidden;
 }
+
 
 .container-fluid {
   margin: 0 auto;
